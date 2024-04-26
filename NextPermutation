@@ -1,4 +1,4 @@
-Find the next permutation
+Find the Next Permutation
 
 Rearrange a list of numbers to its next lexicographically greater permutation.
 If no greater permutation is possible, rearrange the list to its lowest possible order, which is sorted in ascending order.
