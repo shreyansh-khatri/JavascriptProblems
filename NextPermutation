@@ -1,0 +1,25 @@
+Find the next permutation
+
+Rearrange a list of numbers to its next lexicographically greater permutation.
+If no greater permutation is possible, rearrange the list to its lowest possible order, which is sorted in ascending order.
+You're given a list of numbers arr[] of size N.
+So, in simple terms, the task is to rearrange a list of numbers to find the next possible order.
+If there isn't a greater arrangement possible, then it should just sort the numbers in increasing order.
+
+Example 1:
+
+arr = {1, 2, 3, 6, 5, 4}
+Output: {1, 2, 4, 3, 5, 6}
+Explaination: The next permutation of the 
+given array is {1, 2, 4, 3, 5, 6}.
+
+Example 2:
+
+arr = {3, 2, 1}
+Output: {1, 2, 3}
+Explaination: As arr[] is the last 
+permutation. So, the next permutation 
+is the lowest one.
+
+Expected Time Complexity: O(N)
+Expected Auxiliary Space: O(1)
